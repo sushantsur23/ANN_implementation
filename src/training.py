@@ -22,7 +22,7 @@ def training(config_path):
     EPOCHS = config["params"]["epochs"]
     VALIDATION_SET = (X_valid, y_valid)
 
-    CALLBACK_LIST = get_callbacks(config,X_train)
+    CALLBACK_LIST = get_callbacks(config, X_train)
 
     history = model.fit(X_train, y_train, epochs=EPOCHS,
                         validation_data=VALIDATION_SET, callbacks=CALLBACK_LIST)
