@@ -1,5 +1,5 @@
 # ANN_implementation
-ANN_implementation
+ANN_implementation - This project is basic implementation of ANN with DVC and modular fashion coding implemented.
 
 
 ## important commands 
